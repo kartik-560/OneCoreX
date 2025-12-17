@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Button from '@/components/Button';
 import { ArrowRight, Award, Users, Zap, Shield, CircleCheck as CheckCircle, Star } from 'lucide-react';
 
@@ -78,10 +79,10 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" size="lg" icon>
+            <Button   href="/contact" size="lg" icon>
               Start Your Project
             </Button>
-            <Button href="/services" variant="outline" size="lg">
+            <Button   href="/services" variant="outline" size="lg">
               Explore Services
             </Button>
           </div>
@@ -98,7 +99,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                We Don't Just Design Spaces.<br />
+                We Dont Just Design Spaces.<br />
                 <span className="text-amber-600">We Create Stories You Can Live In.</span>
               </h2>
               
@@ -109,10 +110,10 @@ export default function Home() {
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 We blend creativity with engineering precision to create spaces that balance beauty, purpose, and performance. 
-                Design is not a surface treatment – it's a human experience.
+                Design is not a surface treatment – its a human experience.
               </p>
               
-              <Button href="/about" icon>
+              <Button   href="/about" icon>
                 Learn Our Story
               </Button>
             </div>
@@ -174,7 +175,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              How We're Different
+              How Were Different
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               We combine design intuition with engineering discipline, ensuring every detail is executed with precision and care.
@@ -220,7 +221,7 @@ export default function Home() {
               </div>
               
               <div className="mt-8">
-                <Button href="/services" icon>
+                <Button   href="/services" icon>
                   View All Services
                 </Button>
               </div>
@@ -256,19 +257,19 @@ export default function Home() {
       <section className="py-16 bg-amber-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Together Let's Create a Space That Tells Your Story
+            Together Lets Create a Space That Tells Your Story
           </h2>
           
           <p className="text-xl text-amber-100 mb-8 max-w-3xl mx-auto">
-            Ready to transform your space into something extraordinary? Let's discuss your vision and 
+            Ready to transform your space into something extraordinary? Lets discuss your vision and 
             create an environment that truly reflects your story.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" variant="secondary" size="lg" icon>
+            <Button   href="/contact" variant="secondary" size="lg" icon>
               Get Started Today
             </Button>
-            <Button href="tel:+971525315971" variant="outline" size="lg">
+            <Button   href="tel:+971525315971" variant="outline" size="lg">
               Call Now
             </Button>
           </div>
